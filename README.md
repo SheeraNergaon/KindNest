@@ -25,9 +25,7 @@ KindNest is an Android application designed to inspire daily acts of kindness an
 Here are some previews of KindNest in action:
 
 ### Login & Logo 📲
-
-![WhatsApp Image 2025-07-16 at 00 48 38](https://github.com/user-attachments/assets/3d61b799-7ec4-41d9-bdb7-7cf57d07f680)
-
+<img src="./WhatsApp Image 2025-07-16 at 00 48 38 (1).jpeg" alt="Home Screen" width="400"/>
 
 ### 🌟Home Screen - Daily Kindness Prompt
 ![WhatsApp Image 2025-07-16 at 00 48 38 (1)](https://github.com/user-attachments/assets/e3af1180-3409-4b8e-8ad2-b6b6f6d606c4)
