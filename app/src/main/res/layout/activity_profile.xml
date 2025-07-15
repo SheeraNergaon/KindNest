@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/kindnest_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <!-- Foreground content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp">
+
+            <TextView
+                android:text="User Profile and Settings"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:id="@+id/profile_LBL_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your level:"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+                android:textStyle="italic" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/profile_BTN_my_events"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Upcoming Events"
+                app:cornerRadius="12dp"
+                android:layout_marginTop="12dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/profile_BTN_donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donate My Points"
+                app:cornerRadius="12dp"
+                android:layout_marginTop="12dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/profile_BTN_sign_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Out"
+                app:cornerRadius="12dp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:menu="@menu/bottom_menu"
+            app:itemIconTint="@null" />
+    </LinearLayout>
+
+</FrameLayout>

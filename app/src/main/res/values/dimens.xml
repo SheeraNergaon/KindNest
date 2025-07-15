@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard spacing and layout -->
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+
+    <!-- Corner radius -->
+    <dimen name="corner_radius">16dp</dimen>
+
+    <!-- Button heights or additional reusable spacing -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="bottom_nav_height">56dp</dimen>
+</resources>

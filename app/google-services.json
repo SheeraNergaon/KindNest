@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078378403672",
+    "firebase_url": "https://kindnest-d74af-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kindnest-d74af",
+    "storage_bucket": "kindnest-d74af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078378403672:android:2d9757f5511acfc8c1b72d",
+        "android_client_info": {
+          "package_name": "com.SheeraNergaon.KindNest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078378403672-brskvn9bcjblksn1ark7t0o32ntgtmkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.SheeraNergaon.KindNest",
+            "certificate_hash": "c2f45e89ddb660fc1e08aef58b1bb6cdb3d3b8ab"
+          }
+        },
+        {
+          "client_id": "1078378403672-sc6jsjk76pm8gonn19n3u774tr1h9dco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4dJposR1Y3IgyxWhPmVn2Mr-X8GJQZ2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078378403672-sc6jsjk76pm8gonn19n3u774tr1h9dco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

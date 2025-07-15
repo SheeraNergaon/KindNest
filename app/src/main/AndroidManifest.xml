@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.SheeraNergaon.KindNest"
+    tools:ignore="SelectedPhotoAccess">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/kindnest_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kindnest_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KindNest"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD0muVyqOMHPr5sMIYTnaZ0crnbNYWDzxo" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CalendarActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".UploadActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ProfileActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".EventSignupActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MyEventsActivity" />
+        <activity android:name=".CreateEventActivity" />
+        <activity android:name=".EditEventActivity" />
+        <activity android:name=".PickImageActivity" />
+        <activity android:name=".DonatePointsActivity" />
+        <activity
+            android:name=".PickLocationActivity"
+            android:exported="false"/>
+        <activity android:name=".MapEventsActivity" />
+
+
+
+
+
+    </application>
+
+</manifest>

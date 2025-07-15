@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KindNest</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="firestore">Firestore</string>
+    <string name="storage">Storage</string>
+    <string name="enter_a_message_to_save">Enter a message to save...</string>
+    <string name="save">Save</string>
+</resources>

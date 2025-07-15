@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.KindNest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/mplus_family</item>
+        <!-- Branding Colors -->
+        <item name="colorPrimary">@color/kindPrimary</item>             <!-- Soft peach -->
+        <item name="colorPrimaryVariant">@color/kindAccent</item>       <!-- Warm orange -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/softCream</item>    <!-- fallback: @android:color/white -->
+        <item name="colorSurface">@color/cardWhite</item>               <!-- fallback: @android:color/white -->
+        <item name="colorOnSurface">@color/textPrimary</item>           <!-- fallback: @android:color/black -->
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>     <!-- fallback: @android:color/black -->
+        <item name="android:textColorSecondary">@color/textSecondary</item> <!-- fallback: @android:color/darker_gray -->
+
+        <!-- Button Style -->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
+
+        <!-- Bottom Navigation (optional) -->
+        <item name="bottomNavigationStyle">@style/CustomBottomNavigation</item>
+    </style>
+
+    <style name="CustomBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@null</item>
+        <item name="itemTextColor">@color/textSecondary</item>
+    </style>
+
+</resources>
