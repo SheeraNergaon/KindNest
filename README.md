@@ -21,19 +21,19 @@ KindNest is an Android application designed to inspire daily acts of kindness an
 
 ## 📱 Main Features
 
-✅ **Daily Kindness Prompts**  
+⭐ **Daily Kindness Prompts**  
 Get inspired every day with simple, meaningful ideas for good deeds.
 
-✅ **Points & Progression System**  
+🏆 **Points & Progression System**  
 Earn points for every act of kindness. Level up and unlock new perks.
 
-✅ **Donate Points**  
+🪙 **Donate Points**  
 Use your earned points to support different causes (e.g., children in need, soldiers, local charities).
 
-✅ **Event Scheduling**  
+📆 **Event Scheduling**  
 Join or host local charity events and community challenges.
 
-✅ **Media Sharing**  
+📸 **Media Sharing**  
 Upload photos of your good deeds and share them with the community.
 
 ---
