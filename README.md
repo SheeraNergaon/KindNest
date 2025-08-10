@@ -34,7 +34,7 @@ Use your earned points to support different causes (e.g., children in need, sold
 Join or host local charity events and community challenges.
 
 📸 **Media Sharing**  
-Upload photos of your good deeds and share them with the community.
+Upload photos of your good deeds to remember those meaningful days.
 
 ---
 
